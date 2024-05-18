@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserMaster.master.cs" Inherits="Web_Project_Prg1.UserMaster" %>
+
+<!DOCTYPE html>
+
+<html>   
+<head runat="server">
+    <link href="CSS/UserCss.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 46px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <nav id="nav">
+        <ul class="auto-style1">
+           <li><a> <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/online_flights_logo.png" Height="54px" Width="121px" ImageAlign="Left"  ForeColor="White" BorderColor="#333333" BorderStyle="None"/></a></li>
+            <li><a href="HomePage.aspx" align="center">Home</a></li>
+            <li><a href="FlightPage.aspx">Flight</a></li>
+            <li><a href="LoginPage.aspx">Login</a></li>
+            <li><a href="SignupPage.aspx">SignUp</a></li>
+            
+        </ul>
+    </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

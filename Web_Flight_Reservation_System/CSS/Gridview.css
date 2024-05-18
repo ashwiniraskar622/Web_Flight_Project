@@ -1,0 +1,33 @@
+﻿
+body {
+    font: 12px verdana;
+}
+
+.myGridStyle {
+    border-collapse: collapse;
+}
+
+    .myGridStyle tr th {
+        padding: 8px;
+        color: black;
+        border: 1px solid black;
+    }
+
+
+    .myGridStyle tr:nth-child(even) {
+        background-color: aliceblue;
+    }
+
+    .myGridStyle tr:nth-child(odd) {
+        background-color: aliceblue;
+    }
+
+    .myGridStyle td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+
+    .myGridStyle tr:last-child td {
+    }
+
+

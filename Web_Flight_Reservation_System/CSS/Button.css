@@ -1,0 +1,20 @@
+﻿.button{
+    border-block-color:darkturquoise;
+    background-color:white;
+    text-emphasis-color:aqua;
+    font:bold;
+}
+.button:hover {
+    cursor: pointer;
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=' #85B6F0', endColorstr='#579AEB');*/
+    /* for IE */
+    /*-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=' #85B6F0', endColorstr='#579AEB');*/
+    /* for IE 8 and above */
+    background: -webkit-gradient(linear, left top, left bottom, from(#85B6F0), to(#579AEB));
+    /* for webkit browsers */
+    background: -moz-linear-gradient(top, #85B6F0, #579AEB);
+    /* for firefox 3.6+ */
+    background: -o-linear-gradient(top, #85B6F0, #579AEB);
+    /* for Opera */
+    
+}

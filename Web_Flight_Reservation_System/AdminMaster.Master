@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="Web_Flight_Reservation_System.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="CSS/UserCss.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav id="nav">
+        <ul>
+            <li><a> <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/online_flights_logo.png" Height="54px" Width="121px" ImageAlign="Left"  ForeColor="White" BorderColor="#333333" BorderStyle="None"/></a></li>
+             <li><a href="AdminHomePage.aspx">Home</a></li>
+            <li><a href="AddFlightPage.aspx">Add Flight</a></li>
+            <li><a href="AddLocationPage.aspx">Add Location</a></li>
+        </ul>
+        </nav>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
